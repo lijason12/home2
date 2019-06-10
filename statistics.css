@@ -1,0 +1,100 @@
+body{
+	background-color:gray;
+}
+
+h1{
+	text-align: center;
+	font-size: 40pt;
+	font-family: Verdana;
+	
+}
+
+.back_colour{
+	background-color:gray;
+	
+
+}
+
+p{
+	text-align:center;
+	font-family: Calibri;
+	font-size: 25pt;
+
+}
+
+
+a.go_back{
+	text-align:left;
+	font-family: Calibri;
+	font-size: 15pt;
+	margin-left:20%;
+	margin-right:30%;
+}
+
+ul.navigation_bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li.navigation_bar {
+  float: left;
+}
+
+table {
+  border: 1px solid black;
+  font-family: Verdana;
+  width: 100%;
+  text-align:center;
+}
+
+th {
+  text-align: center;
+  border: 1px solid black;
+  font-family: Verdana;
+  padding: 5px;
+  background-color: red
+}
+
+td {
+  padding: 5px;
+  border: 1px solid black;
+  font-family: Verdana;
+  text-align:center;
+} 
+
+a.website{
+	font-size:15pt;
+	font-family: Verdana;
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana;
+}
+
+li a:hover:not(.active) {
+  background-color: #222;
+}
+
+.active {
+  background-color: red;
+}	
+
+img.validator{
+	display: block;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top: 20px;
+	
+}
+
